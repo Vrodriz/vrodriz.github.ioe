@@ -1,0 +1,362 @@
+body
+{   
+    background-color: #ffffff;
+    margin-right: 0px;
+    padding: 0px;
+}    
+
+ul
+{   
+    list-style: none;
+}
+
+a
+{   
+    text-decoration: none;
+}
+
+section
+{   
+    width: 100%;
+    height: 95vh;
+    background-image: url(cartaz-de-dragoes-targaryen-pretos-no-pano-de-fundo-do-fogo-vermelho-para-a-serie-house-of-the-dragon_649709-242.png);
+    background-repeat: no-repeat;
+    background-size: 610px;
+    background-position: right;
+    
+    
+}  
+
+/*Estilo Navegador*/
+
+nav
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul
+{   
+    display: flex;
+}
+
+nav ul li a
+{   
+    margin:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000; 
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.logo
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    color: #910b0b;
+    font-size: 28px;
+}
+
+.active
+{   
+    font-weight: bold;
+    color: #b11b1b;
+}
+
+/*Estilo Texto*/
+
+.conteudo-texto p:nth-child(1)
+{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 22px;
+      
+}
+
+.conteudo-texto p:nth-child(2)
+{   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000000;
+    font-size: 45px;
+}
+
+.conteudo-texto p:nth-child(3)
+{   
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.conteudo-texto
+{   
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.conteudo-texto
+{   
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13, -42%);
+}
+
+.conteudo-texto button
+{   
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+
+.btn1
+{   
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #ffffff;
+}
+
+.btn2
+{   
+    background-color: #b11b1b;
+    border: none;
+    color: #ffffff;
+}
+
+button:active
+{   
+    transform: scale(1.1);
+}
+
+/*Estilo da imagem de fundo*/
+
+.imgbg
+{   
+    height: 450px;
+    position: absolute;
+    bottom: 40px;
+    left: 67%;
+    transform: translateX(-55%);    
+}
+
+.conteudo-sobre
+{   
+    width: 80%;
+    height: 330px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.conteudo-sobre img
+{   
+    height: 250px;  
+}
+
+.texto-sobre 
+{  
+    width: 550px;
+}
+
+.conteudo-sobre p:nth-child(1)
+{   
+    color: #464646f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+.conteudo-sobre p:nth-child(2)
+{   
+    color: #464646f8;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 5px;
+}
+
+.conteudo-sobre p:nth-child(3),
+.conteudo-sobre p:nth-child(4)
+{   
+    color: #464646f8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.texto-sobre button
+{   
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b11b1b;
+}
+
+/*Serviços*/
+
+.servicos
+{   
+    height: 700px;
+    background-color: #c73636;
+}
+
+.servicos-texto p:nth-child(1)
+{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #313131;
+    font-size: 30px;
+    line-height: 30px;
+    
+    
+}
+
+.servicos-texto p:nth-child(2)
+{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #313131;
+    font-size: 20px;
+    line-height: 5px;
+    
+}
+
+.servicos-texto p:nth-child(3)
+{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #313131;
+    font-size: 18px;
+    line-height: 0x;
+}
+
+.servicos-texto 
+{   
+    width: 500px;
+    margin: 50px 0px 0px 50px;  
+}
+
+.box1, .box2, .box3, .box4
+{   
+    width: 400px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-box
+{   
+    display: flex;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.box1{  
+
+    background-image: url(./services-1.png);
+
+}
+
+.box2{  
+
+    background-image: url(./services-2.png);
+    
+}
+
+.box3{  
+
+    background-image: url(./servies-3.png);
+    
+}
+
+.box4{  
+
+    background-image: url(./services-1.png);
+    
+}
+
+.box1 span,
+.box2 span,
+.box3 span,
+.box4 span
+{   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.box1 p:nth-child(2),
+.box2 p:nth-child(2),
+.box3 p:nth-child(2),
+.box4 p:nth-child(2)
+{   
+    color: #ffffff7a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.box1 p:nth-child(3),
+.box2 p:nth-child(3),
+.box3 p:nth-child(3),
+.box4 p:nth-child(3)
+{   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 350px;
+    color: #ffffffa2;
+    margin: 0px 0px 0px 0px;
+}
+
+.box1 button,
+.box2 button,
+.box3 button,
+.box4 button
+{   
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
